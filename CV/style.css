@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1E8E4;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: #BDBAB2;
+}
+
+/* Navigation */
+
+.wrapper {
+    width: 1400px;
+    margin:0 auto;
+    background-color: #fffffa;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1)
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 1.2em 1.2em;
+    line-height: 1em;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1C1C1B;   
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1C1C1B;
+}
+
+.main-container {
+    margin: .7rem auto;
+    background-color: #F1E8E4;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar section */
+.my-pic {
+    max-width: 300px;
+    border-style: solid 5px;
+    box-shadow: 7px 10px 0 0 rgba(0,0,0,0.3);
+}
+
+.sidebar-section {
+    width: 30vw;
+    padding: 1.8em 1.8em 0;
+    background-color: #5B4C48;
+}
+
+.sidebar-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.1em;
+    color: #fff;
+    margin-bottom: .4em;
+}
+
+.contacts-section,
+.skills-section,
+.interests-section  {
+    margin: 3rem 0 0 1rem;
+}
+
+.contacts-list,
+.skills-list,
+.interests-list {
+color: #fffffa;
+padding: 0 0 0 1rem;
+}
+
+.contacts-list {
+padding-left: 0;
+}
+
+.contacts-item {
+list-style-type: none;
+}
+
+.img-location,
+.img-email,
+.img-phone,
+.img-GitHub,
+.img-telegram {
+    max-width: 15px;
+    margin-right: .5em;
+}
+
+/* Main content section*/
+
+.main-content-section {
+    padding: 4em 3em;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    letter-spacing: normal;
+}
+
+.about-me-description {
+    text-indent: 1.2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #000;
+    margin-bottom: .4em;
+}
+
+.projects-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1C1C1B;
+}
+
+.experience-title {
+    margin-bottom: 0;
+}
+
+.experience-list {
+    margin-top: .2em;
+}
+
+.code {
+    margin-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+/* Footer section */
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em 0;
+}
+
+    .footer-year {
+    line-height: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1C1C1B;
+}
+    .mate-logo {
+    max-width: 6em;
+}
+
+    .footer-github-name {
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1C1C1B;
+    text-decoration: none;
+}
